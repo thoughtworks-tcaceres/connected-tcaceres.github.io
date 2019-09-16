@@ -1,9 +1,26 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+#myName {
+  text-transform: uppercase;
+}
+
+.links {
+  text-transform: uppercase;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+
 .outerbox {
-  border: 5px solid red;
-  position: fixed;
-  height: 100%;
-  width: 100%;
+  border: 5px solid black;
+  background: rgba(82, 80, 80, 0.3);
+  position: relative;
+  height: 30%;
+  width: 60%;
   z-index: 5;
+  margin: 0 auto;
 }
 
 .outerbox img {
