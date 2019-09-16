@@ -1,0 +1,25 @@
+{
+  "name": "tylercaceres.github.io",
+  "version": "1.0.0",
+  "description": "tyler caceres portfolio",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tylercaceres/tylercaceres.github.io.git"
+  },
+  "author": "Tyler Caceres",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tylercaceres/tylercaceres.github.io/issues"
+  },
+  "homepage": "https://github.com/tylercaceres/tylercaceres.github.io#readme",
+  "dependencies": {
+    "node-sass": "^4.12.0"
+  }
+}
