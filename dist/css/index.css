@@ -3,9 +3,10 @@
   justify-content: center;
   flex-direction: column;
   border: 5px solid rgba(56, 54, 54, 0.25);
-  padding: 1em;
+  padding: 0.5em;
+  padding-bottom: 0;
   margin: 0 auto;
-  margin-top: 5%;
+  margin-top: 5vh;
 }
 
 .header {
@@ -18,7 +19,6 @@
 .title {
   display: flex;
   justify-content: center;
-  font-size: 1.5vw;
 }
 
 .lg-heading {
@@ -27,14 +27,15 @@
 
 .sm-heading {
   display: inline-block;
-  font-size: 3vw;
+  font-size: 2.5vw;
 }
 
 .icons {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   flex-direction: row;
   width: 100%;
+  margin: 0 !important;
 }
 
 .icon {
@@ -50,7 +51,7 @@
   align-content: center;
   width: 100%;
   flex-flow: wrap;
-  /* height:; */
+  text-transform: uppercase;
 }
 
 .more-info a{
@@ -62,7 +63,7 @@
   align-content: center;
   width: 100%;
   flex-flow: wrap;
-  border: 0.25px solid black;
+  border: 0.25px solid rgba(56, 54, 54, 0.25);
   cursor: pointer;
 }
 
@@ -88,6 +89,29 @@ a {
 .icons a:hover {
   color: #e61e1e;
   transition: all 1s ease-out;
+}
+
+.img-card-top {
+  height: 80%;
+  width: 80%;
+}
+
+.card{
+  margin: 2%;
+}
+
+.card-title a:link {
+  text-decoration: none !important;
+}
+
+.card-title a{
+  color:grey;
+  transition: all 1s ease-out;
+}
+
+.card-title a:hover {
+  color: white;
+  background:black;
 }
 
 .tuna {
@@ -117,7 +141,7 @@ a {
 
 .foreground {
   animation: parallax_fg linear 10s infinite both;
-  background:  url(http://stash.rachelnabors.com/24ways2012/foreground_grass.png) 0 100% repeat-x;
+  background: url(http://stash.rachelnabors.com/24ways2012/foreground_grass.png) 0 100% repeat-x;
   z-index: -1;
 }
 
