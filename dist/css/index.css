@@ -5,8 +5,8 @@
   border: 5px solid rgba(56, 54, 54, 0.25);
   padding: 1em;
   margin: 0 auto;
-  width: 100%;
   margin-top: 5%;
+  overflow: auto;
 }
 
 .header {
@@ -28,19 +28,21 @@
 
 .icons {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  flex-direction: row;
+  width: 75%;
 }
 
-.more-info {
+.icon {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
 }
 
-.more-info a {
+.more-infos a {
+  display: flex;
   color: black;
   padding: 0;
   margin: 0;
-  display: flex;
   text-transform: uppercase;
   padding: 0.5em;
   justify-content: center;
@@ -56,7 +58,7 @@ a {
   text-decoration: none !important;
 }
 
-.more-info a:hover {
+.more-infos a:hover {
   color: white;
   background: black;
    transition: all 1s ease-out;
@@ -68,7 +70,7 @@ a {
 
 .icons a{
   color:black;
-  display: block;
+  display: inline-block;
 }
 
 .icons a:hover {
