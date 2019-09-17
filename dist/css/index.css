@@ -1,31 +1,79 @@
-body {
-  font-family: 'Roboto', sans-serif;
-}
-
-#myName {
-  text-transform: uppercase;
-}
-
-.links {
-  text-transform: uppercase;
-  list-style: none;
+.main {
   display: flex;
-  justify-content: space-between;
-}
-
-.outerbox {
-  border: 5px solid black;
-  background: rgba(82, 80, 80, 0.3);
-  position: relative;
-  height: 30%;
-  width: 60%;
-  z-index: 5;
+  justify-content: center;
+  flex-direction: column;
+  border: 5px solid rgba(56, 54, 54, 0.25);
+  padding: 1em;
   margin: 0 auto;
+  width: 100%;
+  margin-top: 5%;
 }
 
-.outerbox img {
-  height: 2em;
-  width: 2em;
+.header {
+  display: flex;
+  justify-content: center;
+  text-transform: uppercase;
+  font-size: 1.5vw;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  /* font-size: 0.5em; */
+}
+
+.sm-heading {
+  font-size: 3vw;
+}
+
+.icons {
+  display: flex;
+  justify-content: space-around;
+}
+
+.more-info {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.more-info a {
+  color: black;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  text-transform: uppercase;
+  padding: 0.5em;
+  justify-content: center;
+  align-content: center;
+  width: 50vw;
+  flex-flow: wrap;
+  /* height:; */
+  border: 0.5px solid black;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+.more-info a:hover {
+  color: white;
+  background: black;
+   transition: all 1s ease-out;
+}
+
+.lg-heading {
+  font-size: 3em;
+}
+
+.icons a{
+  color:black;
+  display: block;
+}
+
+.icons a:hover {
+  color: #e61e1e;
+  transition: all 1s ease-out;
 }
 
 .tuna {
@@ -56,7 +104,7 @@ body {
 .foreground {
   animation: parallax_fg linear 10s infinite both;
   background:  url(http://stash.rachelnabors.com/24ways2012/foreground_grass.png) 0 100% repeat-x;
-  z-index: 3;
+  z-index: -1;
 }
 
 @keyframes parallax_fg {  
@@ -67,7 +115,7 @@ body {
 .midground {
   animation: parallax_mg linear 20s infinite;
   background:  url(http://stash.rachelnabors.com/24ways2012/midground_grass.png) 0 100% repeat-x;
-  z-index: 2;
+  z-index: -2;
 }
 
 @keyframes parallax_mg {  
@@ -84,7 +132,7 @@ body {
     url(http://stash.rachelnabors.com/24ways2012/background_mountain1.png);
   background-repeat: repeat-x;
   background-position: 0 100%;
-  z-index: 1;
+  z-index: -3;
   animation: parallax_bg linear 40s infinite;
 }
 

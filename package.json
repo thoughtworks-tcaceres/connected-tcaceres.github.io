@@ -7,7 +7,7 @@
     "doc": "docs"
   },
   "scripts": {
-    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+    "deploy": "gh-pages -d dist"
   },
   "repository": {
     "type": "git",
@@ -19,7 +19,5 @@
     "url": "https://github.com/tylercaceres/tylercaceres.github.io/issues"
   },
   "homepage": "https://github.com/tylercaceres/tylercaceres.github.io#readme",
-  "dependencies": {
-    "node-sass": "^4.12.0"
-  }
+  "dependencies": {}
 }
