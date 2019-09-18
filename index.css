@@ -91,9 +91,16 @@ a {
   transition: all 1s ease-out;
 }
 
-.img-card-top {
-  height: 80%;
-  width: 80%;
+.card-img-top {
+  height: 15em;
+  width: 5em;
+  border: 2px solid grey;
+  opacity: 0.5;
+  transition: all 1s ease-out;
+}
+
+.card-img-top:hover {
+  opacity: 1;
 }
 
 .card{
