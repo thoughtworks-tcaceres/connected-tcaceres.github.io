@@ -32,10 +32,10 @@
 
 .icons {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   flex-direction: row;
-  width: 100%;
-  margin: 1em !important;
+  margin-top: 0.5em !important;
+  margin-bottom: 0.5em !important;
 }
 
 .icon {
